@@ -1,0 +1,324 @@
+/* ==========================================================================
+   *Large devices (desktops, 992px and up)*
+   ========================================================================== */
+@media (min-width: 1200px) and (max-width:1600px) {
+    
+    
+}
+
+
+/* ==========================================================================
+   *Large devices (desktops, 992px and up)*
+   ========================================================================== */
+@media (min-width: 992px) and (max-width:1199px) {
+    
+    
+    
+}
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 1200px and down)*
+   ========================================================================== */
+@media (max-width: 1200px) {
+
+    .main-menu > ul > li > a { padding: 11px 10px;}
+    .banner-text h3 { font-size: 40px; line-height: 55px;}
+    .home-about-right { padding: 0px;}
+    .home-about-left h3 { font-size: 45px; line-height: 55px; margin-bottom: 20px;}
+    .home-about-bottom-box p span { font-size: 21px;}
+    .footer-about-link { margin-right: 0px;}
+    
+    .sub-banner-text h3 { font-size: 42px; line-height: normal; margin-bottom: 5px;}
+    .phone-no a { font-size: 15px;}
+    
+    .main-menu > ul > li.dropdown > a:after { top: 22px; right: 0; }
+    /*============================================================================
+    ==================== DOPS UPDATE 6-6-2022 LIYA JOHN =========================*/
+    /* .inter-RIR-block li{} */
+}
+
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 991px and down)*
+   ========================================================================== */
+@media (max-width: 991px) {
+
+    .main-menu { display:none;}
+	.mobile-menu { display:block; background:#23282f;}
+	.mobile-menu a.menu-toggle{display:block; z-index:1; top: 15px; right:10px; background:#2e99ff;}
+	.mobile-menu ul.menu-list{display:none;}
+	.mobile-menu ul li span { display:none;}
+	.mobile-menu ul.menu-list li a.login { color: #fff; display:block; width:100%; font-size: 14px; text-transform: uppercase; padding: 8px 0; background:none; display: inline-block; line-height: normal; position: relative;  top:0px;  border-radius: 0px;}
+    .mobile-menu ul li a.active { color: #fff;}
+    .header-right { margin-right: 50px;}
+    .mobile-menu ul.menu-list { padding: 10px 0;}
+    .mobile-menu ul li a { font-size: 14px;}
+    .mobile-menu ul.menu-list > li > ul > li a { font-size: 14px;}
+    
+    .banner-wrapper { min-height: inherit;}
+    .banner-text { text-align: center;}
+    .banner-how-work { margin: auto;}
+    .banner-content { height: auto; padding: 50px 0;}
+    .banner-text h3 { font-size: 30px; line-height: normal;}
+    .banner-text p { font-weight: 300; margin-bottom: 25px;}
+    .home-about-block { padding-top: 50px;}
+    .home-about-bottom-box { text-align: center;}
+    .home-how-work-right { margin-left: 0px;}
+    
+    .home-how-work-left { width: 100%; text-align: center; margin-bottom: 25px;}
+    .home-how-work-left h4 { padding-bottom: 20px;}
+    .home-how-work-left h4:before { width: 100%;}
+    .home-how-work-left h4 br { display: none;}
+    .home-how-work-block { padding: 50px 0;}
+    
+    .home-features-block { padding: 50px 0;}
+    .footer-about { padding-right: 15px;}
+    .home-how-work-right .owl-carousel .owl-controls { display: block;}
+    .sub-banner-text { text-align: center;}
+    .sub-banner-how-work { display: inline-block;}
+    .buy-top-block { padding: 50px 0;}
+    .buy-top-right { padding-left: 0px;}
+    .buy-top-right h3 { font-size: 32px; line-height: 35px;}
+    
+    .buy-top-left-box { overflow: hidden; text-align: center; padding-left: 0px;}
+    .buy-top-left-box > div > div { border-left: none; border-top: 1px solid #cdd6e1;}
+    .buy-top-left-box > div > div:first-child { border-top:none;}
+    .buy-top-left-box > div > div:before { bottom: inherit; left: 0px; top: -15px; right: 0px; border-color: transparent transparent #cdd6e1 transparent;}
+    .buy-top-left-icon { position: relative; left: inherit; top: inherit; bottom: inherit; margin-top: 20px;}
+    .buy-top-left-box-head { padding: 10px 0 20px 0;}
+    .relax-block { min-height: inherit; position: relative;}
+    .relax-block:after { content: ''; width: 100%; height: 100%; display: block; position: absolute; left: 0px; top: 0px; background: rgba(0, 0, 0, 0.65);}
+    .relax-main { position: relative; z-index: 2;}
+    .relax-main-text h3 { color: #fff; font-size: 30px; margin-bottom: 15px;}
+    .relax-main-text ul li { color: #fff; font-size: 16px; margin-bottom: 15px;}
+    .relax-main-text { padding: 50px 0;}
+    .form-main-div { padding-left: 0px;}
+    .form-main-icon { position: static; margin-bottom: 20px;}
+    .form-block { background: url(../img/form-bg.jpg) no-repeat right top; background-size: cover;}
+    
+    .form-main-div-top { text-align: center;}
+    .form-main-icon { margin: auto; width: 134px; height: 134px; display: block; margin-bottom: 20px;}
+    .form-main-btn { margin: auto;}
+    .form-block { min-height: inherit; padding: 50px 0 30px 0;}
+    .contact-dotts { display: none;}
+    .contact-top-box { margin: 0px; padding: 45px 15px 30px 15px;}
+    .contact-top-block { padding-top: 70px;}
+    .contact-form-block { padding: 50px 0;}
+    
+    .how-work-top-block { padding: 50px 0;}
+    .how-work-top-head h3 { font-size: 30px;}
+    .how-work-top-box { margin: 0px;}
+    .prifixx-transactions-left { padding: 50px 0;}
+    .prifixx-transactions-left h3 { font-size: 26px; line-height: 33px;}
+    .prifixx-transact-box p span { font-size: 19px;}
+    .news-top-box .news-top-box-cont { padding: 33px 28px;}
+    .news-page { padding: 50px 0;}
+    
+    .pdf-downloads li { width: 48%;}
+    .e-book-content-left { padding-right: 0px;}
+    .e-book-content-block { padding: 50px 0;}
+    
+    
+    /*============================================================
+      04-05-2019 New Pages (Arin,Ripe,Faq,Contact)
+      ============================================================*/
+    .arin-page-block { padding: 50px 0;}
+    .arin-page-ul li { display: block; padding: 0px; border-left: none;}
+    .faq-page-left { padding-right: 0px; padding: 50px 0;}
+    .faq-page-right { margin-left: 0px; padding: 50px 0; padding-left: 30px;}
+    .contact-page-block { padding: 50px 0;}
+
+
+    /* --------- 05-10-2021 begin --------- */
+    .faq-block { padding: 50px 0;}
+    .sub__banner--right { justify-content: center; align-items: center; margin-top: 15px;}
+    .buy-top-left-box-cont { padding: 20px;}
+    .buy__ipv4__address--block,
+    .latest__article--block { padding: 50px 0;}
+    .footer-about { padding: 0; border: none;}
+    .footer-about-link { border-right: none; border-top: 1px solid #243853; border-bottom: 1px solid #243853; padding: 20px 0; margin: 20px 0;}
+    .arin__steps--box:nth-child(even) .step__circle,
+    .step__circle { left: inherit; right: 0;}
+    .commne__ul--sub { margin-left: 0;}
+    .arin__steps--box { padding: 50px 0;}
+    /* --------- 05-10-2021 end --------- */
+
+
+
+    /* ==============================================================
+      26-06-2021 banner update begin
+      ============================================================== */
+   .hero__content { padding: 50px 0;}
+   .hero__content h1 { font-size: 50px; line-height: 50px; margin-bottom: 25px;}
+   .hero__content p { margin-bottom: 25px;}
+   /* ==============================================================
+      26-06-2021 banner update end
+      ============================================================== */
+
+
+
+
+      /* ===============================================================
+      DOPS NEWS UPDATE - 6-06-22
+      =============================================================== */
+      h3{font-size: 35px;}
+      .resp-div{order: 2;}
+      .features-block, .white-glove-services{padding: 35px 0;text-align: center;}
+      .white-glove-services .commen-btn{margin: auto;}
+      .our-commitement, .our-guarantee, .we-begin-journey{padding: 35px 0;text-align: center;}
+      .begin-journery-box{display: block;}
+      .begin-journey-inner{width: 100%;}
+      .img-right{text-align: center;}
+      .resp-box{order: 2;}
+      .inter-RIR-services img{margin-top: 20px;}
+      .img-flex-box{justify-content: center;}
+      .logo-list-block{padding: 35px 0;}
+      .img-flex-box{margin-bottom: 45px;}
+      .inner-banner .sub-banner-content{padding-top: 75px;}
+}
+
+/* ==========================================================================
+   *Small devices (landscape phones, less than 768px)*
+   ========================================================================== */ 
+@media (max-width: 767px) {
+    
+    .footer-about { padding-right: 0px; border-right: none; border-bottom: 1px solid #243853; padding-bottom: 20px;}
+    .footer-about-link { border-right: none; border-bottom: 1px solid #243853; padding: 20px 0;}
+    .footer-news-link { padding: 20px 0;} 
+    .footer-main { padding-bottom: 30px;}
+    .footer-block { padding-top: 40px;}
+    .free-book-block { min-height: inherit; padding: 40px 0;}
+    .free-book-main h3 { font-size: 24px; line-height: 28px;}
+    .home-about-left { text-align: center; padding-bottom: 30px;}
+    .home-about-left h3 br { display: none;}
+    .learn-more-btn { display: inline-block;}
+    .home-about-left h3 { font-size: 34px; line-height: normal;}
+    .home-about-right { text-align: center;}
+    .home-features-main > div > div:nth-child(even) .home-features-box { margin-left: 0px;}
+    
+    .form-main-div h3 br { display: none;}
+    .form-main-div h3 { font-size: 28px;}
+    .buy-top-right { text-align: center;}
+    .get-started-btn { margin: auto;}
+    .sub-banner-text h3 { font-size: 32px;}
+    .sub-banner-how-work { font-size: 14px; width: 255px;}
+    .why-use-block { padding: 50px 0; text-align: center;}
+    .why-use-main-text h3 { font-size: 26px;}
+    .contact-top-main > div > div { margin-bottom: 60px;}
+    .contact-top-block:before { display: none;}
+    .contact-form-head h3 { font-size: 26px;}
+    .contact-form-head p { font-size: 16px; line-height: 26px;}
+    .contact-form-head { padding-bottom: 20px;}
+    .contact-form-block { padding: 50px 0 30px 0;}
+    .prifixx-transactions-right { border-left: none;}
+    .prifixx-transactions-left { padding-bottom: 0px;}
+    .how-work-top-main { margin-top: 50px; padding-top: 30px;}
+    
+    .prifixx-transactions-left { text-align: center;}
+    .news-top-box { text-align: center;}
+    .news-page-box { text-align: center;}
+    .news-top-box-img { padding: 20px; padding-bottom: 0px;}
+    .news-pager { text-align: center; margin-bottom: 40px;}
+    .tags-block { padding: 30px;}
+    
+    .pdf-downloads li { width: 100%;}
+    .e-book-content-left { padding: 0px; text-align: center; padding-bottom: 30px;}
+    .e-book-content-right h4 { text-align: center; font-size: 20px;}
+    .e-book-content-right p { text-align: center;}
+    
+    
+    /*============================================================
+      04-05-2019 New Pages (Arin,Ripe,Faq,Contact)
+      ============================================================*/
+    .arin-page-main-left { margin: auto;}
+    .arin-page-main-right { margin-top: 30px; text-align: center;}
+    .faq-page-left { display: none;}
+    .faq-page-right { padding: 50px 0 30px 0; background: none; text-align: center;}
+    .faq-page-right h3 { margin-bottom: 20px;}
+    .faq-page-right-box h4 { font-size: 18px;}
+    .contact-page-left .contact-form-box { margin-bottom: 25px;}
+    .contact-form-box.contact-form-submit-div { text-align: center; margin-bottom: 10px;}
+    .contact-page-right { max-width: inherit; width: 100%;}
+    
+    .sub-banner-text h1,.banner-text h1
+    {
+        font-size:8vw;
+    }
+
+
+    /* --------- 05-10-2021 begin --------- */
+    .faq__main .data { padding: 0px 30px 25px 30px;}
+    .faq__main .accordion-item { padding: 20px 35px 20px 40px; font-size: 20px;}
+    .faq__main .accordion-item::before { left: 12px; top: 20px;}
+    .faq__main .accordion-item::after { right: 12px; top: 20px;}
+    .sub-banner-content { height: auto;}
+    .commen__listing li span { left: 40px;}
+    .latest__article--block .commen__head { padding-bottom: 0;}
+    .footer-about { border-bottom: none;}
+    .arin__steps--box { padding: 25px 0;}
+    .arin__steps--image { margin-bottom: 20px;}
+    .arin__steps--block { padding: 20px 0 50px;}
+    .bottom__logo--image { padding: 25px;}
+    /* --------- 05-10-2021 end --------- */
+
+
+    /* ==============================================================
+      26-06-2021 banner update begin
+      ============================================================== */
+   .hero__content h1 { font-size: 40px; line-height: 40px;}
+   /* ==============================================================
+      26-06-2021 banner update end
+      ============================================================== */
+
+}
+
+/* ==========================================================================
+   *Extra small devices (portrait phones, less than 576px)*
+   ========================================================================== */ 
+@media (max-width: 575px) {
+    h3{font-size: 30px;}
+    .mobile-menu a.menu-toggle { top: 25px;}
+    .header-right { margin-right: 0px;}
+    .header { padding: 10px 0;}
+    .home-about-bottom { overflow: visible;}
+    .home-about-bottom > div > div { margin-top: 30px;}
+    .home-about-bottom-box { margin: 15px; padding: 15px; padding-bottom: 0px; border:1px solid #d8e9ff; box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);}
+    .footer-main { padding-bottom: 10px;}
+    .home-about-block { padding: 35px 0 45px 0;}
+    .home-features-block { padding: 0px;}
+    .home-features-box { padding: 0px; margin: 0px; text-align: center; padding: 40px 0;}
+    .home-features-icon { position: static; margin-bottom: 15px;}
+    .home-features-main > div > div:nth-child(odd) .home-features-box { margin: 0px;}
+    .free-book-main { padding: 0px; text-align: center;}
+    .free-book-icon { position: static; margin-bottom: 20px;}
+    .book-download { display: inline-block;}
+    .home-about-bottom > div > div { border-left: none;}
+    .home-about-bottom > div > div:before {  display: none;}
+    .buy-top-left { padding-left: 0px;}
+    .buy-top-right h3 { font-size: 26px; line-height: 31px;}
+
+    /* --------- 05-10-2021 begin --------- */
+    .home-features-block { padding-top: 40px;}
+    .home-features-block .commen__head { padding-bottom: 0;}
+    .home-about-block { padding-bottom: 0;}
+    .footer-bottom p { float: none !important; margin-bottom: 0;}
+    .banner-text h1 { line-height: 36px;}
+    /* --------- 05-10-2021 end --------- */
+
+    /*=============================================================
+    ================ DOPS UPDATE 6-6-22 LIYA JOHN =================*/
+    .inter-RIR-block ul{display: block;text-align: center;}
+}
+
+/* ==========================================================================
+   *Extra small devices (portrait phones, less than 400px)*
+   ========================================================================== */ 
+@media (max-width: 400px) {
+    
+    
+    
+}
+
+
