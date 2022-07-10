@@ -177,6 +177,16 @@
       .logo-list-block{padding: 35px 0;}
       .img-flex-box{margin-bottom: 45px;}
       .inner-banner .sub-banner-content{padding-top: 75px;}
+
+      /*====================================================================
+      Edits on Sell / Buy / Lease and Contact -- 07-07-2022
+      ======================================================================*/
+      .brief-section { padding: 60px 0; }
+      .brief-section.text--l .row { flex-direction: column-reverse; }
+      .get-started { justify-content: center; flex-direction: column; }
+      .brief-section.text--l .left--contant, .brief-section.text--r .left--contant { padding-right: 0; text-align: center; }
+      .procurment_process .get-started .blue-txt { margin: 0 0 15px 0; }
+      .brief-img { text-align: center; margin-bottom: 50px; }
 }
 
 /* ==========================================================================
@@ -308,13 +318,20 @@
     /* --------- 05-10-2021 end --------- */
 
     /*=============================================================
-    ================ DOPS UPDATE 6-6-22 LIYA JOHN =================*/
+      ================ DOPS UPDATE 6-6-22 LIYA JOHN =================*/
     .inter-RIR-block ul{display: block;text-align: center;}
+
+   /*====================================================================
+   Edits on Sell / Buy / Lease and Contact -- 07-07-2022
+   ======================================================================*/
+   .procurment_process.brief-section ul li a { width: 72px; height: 72px; }
+   .procurment_process.brief-section ul li a img { width: 42px; }
 }
 
 /* ==========================================================================
    *Extra small devices (portrait phones, less than 400px)*
    ========================================================================== */ 
+
 @media (max-width: 400px) {
     
     

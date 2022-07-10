@@ -202,7 +202,7 @@ a.menu-toggle.active span.line.b { opacity:0}
 .banner-content { display: table; height: 650px; width: 100%;}
 .banner-text { display: table-cell; vertical-align: middle;}
 .banner-text h3 { color: #ffffff; font-size: 52px; line-height: 65px; margin-bottom: 20px;}
-.banner-text h1 { color: #ffffff; font-size: 3.5vw; line-height: 65px; margin-bottom: 20px;}
+.banner-text h1 { color: #ffffff; font-size: 4vw; line-height: 65px; margin-bottom: 20px; font-weight: 500;}
 .banner-text p { font-size: 18px; color: #fff; line-height: 30px; opacity: 0.7; font-weight: 200; margin-bottom: 45px;}
 .banner-how-work { width: 247px; height: 59px; line-height: 59px; background: #6aa327; border-radius: 30px;}
 .banner-how-work > img { display: inline-block; vertical-align: middle; margin-left: 15px;}
@@ -717,7 +717,8 @@ padding: 20px;margin-bottom: 15px;}
 
 
 /*====================================================================
-*/
+Edits on Sell / Buy / Lease and Contact -- 07-07-2022
+======================================================================*/
 
 .form-main-div-box p { z-index: 1; }
 .nice-select { width: 100%; background: none; border-color: #8ebcec; color: white; height: 44px; }
@@ -731,5 +732,27 @@ padding: 20px;margin-bottom: 15px;}
 .select--contact_form .nice-select:after { border-color: #737373; }
 .select--contact_form .nice-select.open { border-color: #80bdff; }
 .select--contact_form .nice-select:after { height: 8px; width: 8px; }
+
+.brief-section { padding: 80px 0 80px 0; }
+.brief-section .row { align-items: center; }
+.brief-section.gray--bg { background-color: #f7f8f9; }
+.brief-section.text--l .left--contant { padding-right: 5%; }
+.brief-section.text--r .left--contant { padding-left: 5%; }
+
+.procurment_process.brief-section .get-started { margin: 30px 0 0 0; display: flex; align-items: center; } 
+.procurment_process.brief-section ul { margin: 0; padding: 0; display: flex; }
+.procurment_process.brief-section ul li { margin-right: 10px; }
+.procurment_process.brief-section ul li a { width: 100px; height: 100px; display: block; border-radius: 50%; background-color: #ecf0f4; position: relative;}
+.procurment_process.brief-section ul li a img { width: 62px; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.procurment_process .get-started .blue-txt { font-weight: 700; color: #0b7ae4; font-size: 15px; margin-right: 10px; text-decoration: underline; text-transform: uppercase; }
+
+/* Newspage search box */
+.search__box { padding: 30px; }
+.search__box form { display: flex; align-items: center; }
+.search__box input[type="submit"] { height: 46px; width: 70px; border-radius: 20px; border: solid 1px #6aa327; border-radius: 0 7px 7px 0; background-image: url(../img/arrow.png); background-size: auto;  background-color: #6aa327; background-position: 50%; background-repeat: no-repeat; }
+.search__box input[type="text"] { border: solid 1px #fff; height: 46px; border-radius: 7px 0 0 7px; }
+.search__box input[type="text"]:focus { box-shadow: none; border-color: #6aa327; }
+ 
+
 
 
