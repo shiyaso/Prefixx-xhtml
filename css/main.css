@@ -738,12 +738,15 @@ Edits on Sell / Buy / Lease and Contact -- 07-07-2022
 .brief-section.gray--bg { background-color: #f7f8f9; }
 .brief-section.text--l .left--contant { padding-right: 5%; }
 .brief-section.text--r .left--contant { padding-left: 5%; }
+.brief-section .link-bold { display: inline-block; text-transform: uppercase; text-decoration: underline; font-size: 14px; font-weight: 600; margin-top: 15px; }
 
 .procurment_process.brief-section .get-started { margin: 30px 0 0 0; display: flex; align-items: center; } 
 .procurment_process.brief-section ul { margin: 0; padding: 0; display: flex; }
 .procurment_process.brief-section ul li { margin-right: 10px; }
 .procurment_process.brief-section ul li a { width: 100px; height: 100px; display: block; border-radius: 50%; background-color: #ecf0f4; position: relative;}
-.procurment_process.brief-section ul li a img { width: 62px; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.procurment_process.brief-section ul li a img { width: 62px; height: auto; position: absolute; z-index: 1; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.procurment_process.brief-section ul li a::after{ content: ""; height: 10px; width: 10px; opacity: 0; position: absolute; background-color: #f4f4f4; border-radius: 50%; z-index: 0; top: 50%; left: 50%; transform: translate(-50%, -50%); transition: 0.5s ease-in-out; }
+.procurment_process.brief-section ul li a:hover::after { height: 100%; width: 100%; opacity: 1;  }
 .procurment_process .get-started .blue-txt { font-weight: 700; color: #0b7ae4; font-size: 15px; margin-right: 10px; text-decoration: underline; text-transform: uppercase; }
 
 /* Newspage search box */
