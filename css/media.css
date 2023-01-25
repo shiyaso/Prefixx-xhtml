@@ -187,6 +187,9 @@
       .brief-section.text--l .left--contant, .brief-section.text--r .left--contant { padding-right: 0; text-align: center; }
       .procurment_process .get-started .blue-txt { margin: 0 0 15px 0; }
       .brief-img { text-align: center; margin-bottom: 50px; }
+
+      /* MSO 24-01-2022 - Hosting Connectivity Page */
+      .hosting-connectivity{text-align: center;}
 }
 
 /* ==========================================================================
@@ -326,6 +329,11 @@
    ======================================================================*/
    .procurment_process.brief-section ul li a { width: 72px; height: 72px; }
    .procurment_process.brief-section ul li a img { width: 42px; }
+
+   /* MSO 24-01-2022 - Hosting Connectivity Page */
+   .icon-card{display: block; text-align: center;}
+   .icon-card .blue-icon{margin: auto; margin-bottom: 15px;}
+   .icon-card .text{width: 100%;}
 }
 
 /* ==========================================================================

@@ -735,7 +735,7 @@ Edits on Sell / Buy / Lease and Contact -- 07-07-2022
 
 .brief-section { padding: 80px 0 80px 0; }
 .brief-section .row { align-items: center; }
-.brief-section.gray--bg { background-color: #f7f8f9; }
+.brief-section.gray--bg{ background-color: #f7f8f9; }
 .brief-section.text--l .left--contant { padding-right: 5%; }
 .brief-section.text--r .left--contant { padding-left: 5%; }
 .brief-section .link-bold { display: inline-block; text-transform: uppercase; text-decoration: underline; font-size: 14px; font-weight: 600; margin-top: 15px; }
@@ -756,6 +756,41 @@ Edits on Sell / Buy / Lease and Contact -- 07-07-2022
 .search__box input[type="text"] { border: solid 1px #fff; height: 46px; border-radius: 7px 0 0 7px; }
 .search__box input[type="text"]:focus { box-shadow: none; border-color: #6aa327; }
  
+
+
+/* MSO 24-01-2022 - Hosting Connectivity Page */
+.select-gray{background-color: #eef4fa; padding: 70px 0;}
+.select-gray_dark{background-color: #d2d6dc; padding: 70px 0;}
+.bluetick-list{margin-top: 35px;}
+.bluetick-list li{position: relative; margin-bottom: 5px; text-align: left; padding-left: 30px; font-size: 14px; font-weight: 700; color: #36414b;}
+.bluetick-list li::before{content: ""; width: 16px; height: 16px; position: absolute; left: 0; top: 4px; background: url(../img/listing_bluetick.svg) no-repeat; background-size: contain;}
+.bluetick-list li:last-child{margin-bottom: 0;}
+
+.highlated-featues{padding: 70px 0;}
+.icon-cards{max-width: 550px;}
+.icon-cards .icon-card:last-child{margin-bottom: 0;}
+.icon-card{display: flex; margin-bottom: 35px;}
+.icon-card .blue-icon{width: 68px; height: 68px; line-height: 68px; text-align: center; margin-right: 25px; display: block; background: #1d79d8; border-radius: 50%;}
+.icon-card .blue-icon img{width: 32px; height: 32px; object-fit: contain;}
+.icon-card .text{width: calc(100% - 90px);}
+.icon-card h5{color: #fff; margin: 0 0 10px 0;}
+
+
+.plan-card{padding: 30px; text-align: center; border-radius: 5px; border: solid 1px #1d79d8; background: #fff; box-shadow: 1px 0px 58px 0px rgba(17,16,11,0.1);}
+.plan-card .sub-banner-how-work{line-height: 49px; height: 49px; width: 100%; max-width: 297px; margin: auto;}
+.plan-card p{color: #264e78;}
+.plan-card h4{max-width: 268px; margin: auto; padding-bottom: 10px; margin-bottom: 15px; font-family: 'Open Sans', sans-serif; border-bottom: solid 1px #1d79d8; color: #041325; font-weight: 700; font-size: 28px;}
+.plan-card h4 span{display: block;}
+.plan-figure{display: block; margin-bottom: 15px;}
+.plan-figure label{font-size: 14px; font-weight: 700; color: #36414b; margin: 0;}
+.plan-figure span{display: block; font-size: 48px; line-height: 48px; color: #1d79d8; font-weight: 700;}
+.plan-figure span sup{font-size: 32px; top: -13px;}
+
+.key-features h3{text-align: center; margin-bottom: 40px; color: black;}
+.key-features .white-box{height: 100%; background-color: white; padding: 50px 35px; margin: 0; border-radius: 5px; box-shadow: 1px 0px 58px 0px rgba(0,0,9,0.09);}
+.key-features ul{margin: 0; max-width: 360px; font-family: 'sofia_prolight';}
+.key-features ul li{font-size: 18px; margin-bottom: 15px; color: #23211f;}
+.key-features ul li:last-child{margin-bottom: 0;}
 
 
 
